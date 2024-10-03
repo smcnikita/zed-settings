@@ -1,0 +1,19 @@
+[
+	{
+		"bindings": {
+			"cmd-b": "editor::GoToDefinition",
+			"cmd-1": "workspace::ToggleBottomDock",
+			"cmd-d": "editor::DuplicateLineDown",
+			"cmd-enter": "editor::ShowCompletions",
+			"cmd-[": "editor::Rename",
+			"cmd-\\": "editor::ToggleComments",
+			"cmd-/": ["workspace::SendKeystrokes", "cmd-\\ down"],
+			"cmd-g": "go_to_line::Toggle",
+			"cmd-shift-l": "editor::Format",
+			"cmd-s": "workspace::SaveAll",
+			"cmd-y": "project_panel::ToggleFocus",
+			"cmd-u": "project_panel::CollapseAllEntries",
+			"cmd-2": ["workspace::SendKeystrokes", "cmd-y cmd-u"]
+		}
+	}
+]
