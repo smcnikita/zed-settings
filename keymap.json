@@ -2,7 +2,6 @@
 	{
 		"bindings": {
 			"cmd-b": "editor::GoToDefinition",
-			"cmd-1": "workspace::ToggleBottomDock",
 			"cmd-d": "editor::DuplicateLineDown",
 			"cmd-enter": "editor::ShowCompletions",
 			"cmd-[": "editor::Rename",
@@ -13,6 +12,7 @@
 			"cmd-s": "workspace::SaveAll",
 			"cmd-y": "project_panel::ToggleFocus",
 			"cmd-u": "project_panel::CollapseAllEntries",
+			"cmd-1": "workspace::ToggleBottomDock",
 			"cmd-2": ["workspace::SendKeystrokes", "cmd-y cmd-u"]
 		}
 	}
