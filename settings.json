@@ -1,13 +1,15 @@
 {
+	"icon_theme": "Material Icon Theme",
 	"restore_on_startup": "none",
-	"theme": "JetBrains New Dark",
+	"theme": "JetBrains Dark Purple",
 	"chat_panel": {
-		"button": false
+		"button": "never"
 	},
 	"features": {
-		"inline_completion_provider": "none",
+		"edit_prediction_provider": "none",
 		"copilot": false
 	},
+	"show_completions_on_input": true,
 	"vim_mode": false,
 	"telemetry": {
 		"diagnostics": false,
@@ -19,15 +21,17 @@
 	"autosave": "off",
 	"ui_font_size": 13,
 	"buffer_font_size": 13,
-	"ui_font_family": "JetBrains Mono NL",
-	"buffer_font_family": "JetBrains Mono NL",
+	"ui_font_family": "JetBrains Mono",
+	"buffer_font_family": "JetBrains Mono",
 	"scrollbar": {
 		"show": "always"
 	},
 	"tabs": {
 		"close_position": "right",
-		"file_icons": false,
-		"git_status": true
+		"file_icons": true,
+		"git_status": true,
+		"show_diagnostics": "all",
+		"show_close_button": "hover"
 	},
 	"languages": {
 		"JavaScript": {
@@ -44,9 +48,10 @@
 	"terminal": {
 		"blinking": "on",
 		"font_family": "JetBrains Mono NL",
-		"font_size": 12
+		"font_size": 12,
+		"cursor_shape": "bar"
 	},
-	"preferred_line_length": 85,
+	"preferred_line_length": 120,
 	"soft_wrap": "preferred_line_length",
 	"assistant": {
 		"enabled": false,
@@ -62,6 +67,8 @@
 		"**/Thumbs.db",
 		"**/.classpath",
 		"**/.settings",
-		"**/.idea"
+		"**/.husky",
+		"**/.idea",
+		"**/.github"
 	]
 }
