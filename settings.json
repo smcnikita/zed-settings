@@ -1,13 +1,12 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
+	"features": {
+		"edit_prediction_provider": "none"
+	},
 	"restore_on_startup": "none",
+	"agent_servers": {
+		"claude": null,
+		"gemini": null
+	},
 	"inlay_hints": {
 		"enabled": true,
 		"show_value_hints": true,
@@ -66,7 +65,7 @@
 	"theme": {
 		"mode": "dark",
 		"light": "One Light",
-		"dark": "GitHub Dark Default"
+		"dark": "JetBrains New Dark"
 	},
 	"hard_tabs": true,
 	"tab_size": 4,
